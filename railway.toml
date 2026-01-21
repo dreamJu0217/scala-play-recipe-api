@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+buildCommand = "sbt clean stage"
+
+[start]
+command = "./target/universal/stage/bin/recipe-play-api-test -Dplay.server.pidfile.path=/dev/null -Dhttp.port=${PORT}"
