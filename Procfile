@@ -1,1 +1,2 @@
-web: target/universal/stage/bin/<your-app-name> -Dplay.server.http.port=$PORT
+web: target/universal/stage/bin/recipe-play-api-test -Dplay.server.http.port=$PORT
+
